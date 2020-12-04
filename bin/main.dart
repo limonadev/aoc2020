@@ -1,3 +1,8 @@
-void main(List<String> arguments) {
-  print('Hello world!');
+import 'day_selector.dart';
+
+void main() async {
+  final selected = DaySelector.choose(selection: DayOption.Day01);
+  final result = await selected.solve();
+
+  print(result);
 }
