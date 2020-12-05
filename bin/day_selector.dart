@@ -14,16 +14,16 @@ class DaySelector {
     Day result;
     switch (selection) {
       case DayOption.Day01:
-        result = Day1(inputPath: 'assets/day_1.txt');
+        result = Day01(inputPath: 'assets/day_01.txt');
         break;
       case DayOption.Day02:
-        result = Day2(inputPath: 'assets/day_2.txt');
+        result = Day02(inputPath: 'assets/day_02.txt');
         break;
       case DayOption.Day03:
-        result = Day3(inputPath: 'assets/day_3.txt');
+        result = Day03(inputPath: 'assets/day_03.txt');
         break;
       case DayOption.Day04:
-        result = Day4(inputPath: 'assets/day_4.txt');
+        result = Day04(inputPath: 'assets/day_04.txt');
         break;
       case DayOption.Day05:
         result = Day05(inputPath: 'assets/day_05.txt');

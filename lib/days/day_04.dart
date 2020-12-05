@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:aoc2020/days/day.dart';
 import 'package:meta/meta.dart';
 
-class Day4 extends Day<Map<String, int>> {
-  Day4({@required this.inputPath});
+class Day04 extends Day<Map<String, int>> {
+  Day04({@required this.inputPath});
 
   final String inputPath;
 
