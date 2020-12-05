@@ -1,2 +1,3 @@
 export 'day.dart';
-export 'first_day.dart';
+export 'day_1.dart';
+export 'day_2.dart';
