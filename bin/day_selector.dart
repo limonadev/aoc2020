@@ -8,6 +8,7 @@ enum DayOption {
   Day04,
   Day05,
   Day06,
+  Day07,
 }
 
 class DaySelector {
@@ -31,6 +32,9 @@ class DaySelector {
         break;
       case DayOption.Day06:
         result = Day06(inputPath: 'assets/day_06.txt');
+        break;
+      case DayOption.Day07:
+        result = Day07(inputPath: 'assets/day_07.txt');
         break;
       default:
         throw ArgumentError('$selection is not part of the options');
