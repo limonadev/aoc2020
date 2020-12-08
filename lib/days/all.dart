@@ -6,3 +6,4 @@ export 'day_04.dart';
 export 'day_05.dart';
 export 'day_06.dart';
 export 'day_07.dart';
+export 'day_08.dart';
