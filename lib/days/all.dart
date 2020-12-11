@@ -9,3 +9,4 @@ export 'day_07.dart';
 export 'day_08.dart';
 export 'day_09.dart';
 export 'day_10.dart';
+export 'day_11.dart';
