@@ -45,10 +45,6 @@ class Day13 extends Day<Map<String, int>> {
     return (earliestArrive - arrive) * earliestId;
   }
 
-  int lcm(int a, int b) {
-    return (a * b) ~/ a.gcd(b);
-  }
-
   int _secondPart(List<String> lines) {
     var ids =
         lines[1].split(',').map((e) => e == 'x' ? -1 : int.parse(e)).toList();
