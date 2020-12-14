@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:math';
 
 import 'package:aoc2020/days/day.dart';
 import 'package:meta/meta.dart';

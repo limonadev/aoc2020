@@ -60,8 +60,6 @@ class Day11 extends Day<Map<String, int>> {
 
     var hasChanged = true;
 
-    var i = 0;
-
     while (hasChanged) {
       hasChanged = false;
 
