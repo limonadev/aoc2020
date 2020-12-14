@@ -63,8 +63,6 @@ class Day14 extends Day<Map<String, int>> {
   }
 
   int _secondPart(List<String> lines) {
-    //final memory = List.filled(double.maxFinite.toInt().toUnsigned(36), 0);
-
     final memory = <int, int>{};
     var mask = List.filled(36, 0);
 
@@ -89,21 +87,6 @@ class Day14 extends Day<Map<String, int>> {
         memPositions.forEach(
           (pos) => memory[pos] = val,
         );
-
-        /*var maskedVal = 0.toUnsigned(1);
-
-        for (var i = 0; i < 36; i++) {
-          maskedVal <<= 1;
-          if (mask.containsKey(i)) {
-            maskedVal += mask[i];
-          } else {
-            final bitMask = 1 << (35 - i);
-            final bit = (val & bitMask) >> (35 - i);
-            maskedVal += bit;
-          }
-        }
-
-        memory[memPos] = maskedVal;*/
       }
     }
 
