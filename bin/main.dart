@@ -1,7 +1,7 @@
 import 'day_selector.dart';
 
 void main() async {
-  final selected = DaySelector.choose(selection: DayOption.Day14);
+  final selected = DaySelector.choose(selection: DayOption.Day15);
   final result = await selected.solve();
 
   print(result);
