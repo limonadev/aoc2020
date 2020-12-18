@@ -47,10 +47,6 @@ class Day17 extends Day<Map<String, int>> {
 
   final String inputPath;
 
-  final fieldPattern = RegExp(
-    r'([a-z ]+)\: ([0-9]+-[0-9]+) or ([0-9]+-[0-9]+)',
-  );
-
   @override
   Future<Map<String, int>> solve() async {
     final result = <String, int>{};
