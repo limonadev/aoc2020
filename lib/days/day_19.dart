@@ -1,4 +1,3 @@
-import 'dart:collection';
 import 'dart:io';
 
 import 'package:aoc2020/days/day.dart';

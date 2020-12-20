@@ -3,11 +3,6 @@ import 'dart:io';
 import 'package:aoc2020/days/day.dart';
 import 'package:meta/meta.dart';
 
-/// TODO: The second part can be optimized in terms of space:
-/// Instead of using String everywhere, an integer as index
-/// could potentially reduce the real space required.
-/// The algorithm anyways has O(nlgn) amortized time and space
-/// because of sorting
 class Day11 extends Day<Map<String, int>> {
   Day11({@required this.inputPath});
 
